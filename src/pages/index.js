@@ -26,6 +26,7 @@ export default () => {
           justifyContent: "space-between",
           paddingLeft: "2rem",
           paddingRight: "2rem",
+          marginTop: `1rem`,
         }}
       >
         <div

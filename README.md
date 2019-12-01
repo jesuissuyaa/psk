@@ -2,7 +2,11 @@
 
 - add SEO stuff
 - add OGP for twitter
-- tweak colors 
+- tweak colors for text
+- domain
+- optimize image loading
+- sharable QR (popup on tap)
+- layout for PC
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
@@ -29,7 +33,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     gatsby new my-hello-world-starter https://github.com/gatsbyjs/gatsby-starter-hello-world
     ```
 
-1.  **Start developing.**
+2.  **Start developing.**
 
     Navigate into your new site’s directory and start it up.
 
@@ -38,7 +42,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     gatsby develop
     ```
 
-1.  **Open the source code and start editing!**
+3.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
 

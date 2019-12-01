@@ -37,10 +37,9 @@ export default () => {
         width: `100vw`,
         display: `flex`,
         justifyContent: `space-between`,
-        padding: `1rem`,
+        padding: `1rem 2rem`,
         background: `white`,
         boxSizing: `border-box`,
-        marginTop: `3rem`,
       }}
     >
       <Item to="/" isPage>
