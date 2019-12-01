@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTwitter } from "@fortawesome/free-brands-svg-icons"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import NextPerformance from "../components/nextPerformance"
-import SEO from "../components/seo"
+import SEO from "../components/SEO"
 
 export default () => {
   return (
