@@ -1,5 +1,5 @@
 import React from "react"
-import BlogLayout from "../components/bloglayout"
+import BlogLayout from "../components/blogLayout"
 import { Link, graphql } from "gatsby"
 import Logo from "../assets/logo.jpg"
 
