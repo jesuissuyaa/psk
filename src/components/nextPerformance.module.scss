@@ -1,0 +1,15 @@
+@import "../utils/variables";
+
+.container {
+  background: $pink;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  margin: 1rem auto;
+}
+.icon {
+  margin-right: 0.5rem;
+}

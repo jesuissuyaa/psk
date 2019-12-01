@@ -1,0 +1,12 @@
+@import "../utils/variables";
+
+.container {
+  margin: -8px;
+  background: $teal;
+  color: #000;
+  min-height: 100vh;
+  font-family: $font-stack;
+}
+.contents {
+  padding-bottom: 5rem;
+}

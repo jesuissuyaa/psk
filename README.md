@@ -1,5 +1,6 @@
 ## TODO
 
+- add pagination for blog: https://www.gatsbyjs.org/docs/adding-pagination/
 - add SEO stuff
 - add OGP for twitter
 - tweak colors for text

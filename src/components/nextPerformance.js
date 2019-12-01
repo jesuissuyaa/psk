@@ -1,22 +1,14 @@
 import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faMusic } from "@fortawesome/free-solid-svg-icons"
+import styles from "./nextPerformance.module.scss"
 
 export default () => {
   return (
-    <div
-      style={{
-        color: "#ff8c84",
-        display: "flex",
-        justifyContent: "center",
-        margin: "1rem auto",
-      }}
-    >
-      <div style={{ marginRight: ".5rem" }}>
-        <FontAwesomeIcon icon={faMusic} size="lg" />
-      </div>
+    <div className={styles.container}>
+      <FontAwesomeIcon icon={faMusic} size="lg" className={styles.icon} />
       <div>
-        次回の発表予定は<b>未定</b>です！ <br />
+        次回の発表予定: <b>未定</b> <br />
         (2019年11月 現在)
       </div>
     </div>

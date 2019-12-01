@@ -9,11 +9,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTwitter } from "@fortawesome/free-brands-svg-icons"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import NextPerformance from "../components/nextPerformance"
+import SEO from "../components/seo"
 
 export default () => {
   return (
     <Layout>
-      <h2 style={{ textAlign: "center", fontSize: "1.3rem" }}>
+      <SEO />
+      <h2 style={{ textAlign: "center", margin: `0 auto`, fontSize: "1.3rem" }}>
         パサール・スニ・くにたち
       </h2>
       <NextPerformance />
@@ -29,16 +31,19 @@ export default () => {
           marginTop: `1rem`,
         }}
       >
-        <div
+        <a
           style={{
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
+            color: "#1DA1F2",
+            textDecoration: `none`,
           }}
+          href="https://twitter.com/psk_kunitachi"
         >
           <FontAwesomeIcon icon={faTwitter} size="3x" />
           @psk_kunitachi
-        </div>
+        </a>
         <div
           style={{
             display: "flex",

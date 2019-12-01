@@ -19,7 +19,7 @@ const BlogPostHeader = () => {
         src={Logo}
         style={{
           height: `20vw`,
-          borderRadius: `10vw`,
+          borderRadius: `50%`,
           border: `.2rem solid white`,
           marginRight: `1rem`,
         }}

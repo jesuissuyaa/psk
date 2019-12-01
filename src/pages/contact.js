@@ -12,19 +12,22 @@ export default () => {
     <Layout>
       メンバーは随時募集しています！まずは見学だけでも大丈夫ですので、お気軽にご連絡ください
       <div style={{ marginTop: `3rem` }}>
-        <div style={{ display: `flex`, marginBottom: `1rem` }}>
+        <a
+          style={{
+            display: `flex`,
+            marginBottom: `1rem`,
+            textDecoration: `none`,
+            color: `#1da1f2`,
+          }}
+          href="http://twitter.com/psk_kunitachi"
+        >
           <FontAwesomeIcon
             icon={faTwitter}
             size="lg"
-            style={{ marginRight: `1rem` }}
+            style={{ marginRight: `1rem`, color: `#1da1f2` }}
           />
-          <a
-            href="http://twitter.com/psk_kunitachi"
-            style={{ textDecoration: `none`, color: `powderblue` }}
-          >
-            @psk_kunitachi
-          </a>
-        </div>
+          @psk_kunitachi
+        </a>
         <div style={{ display: `flex` }}>
           <FontAwesomeIcon
             icon={faEnvelope}

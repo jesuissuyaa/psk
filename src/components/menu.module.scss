@@ -1,0 +1,29 @@
+@import "../utils/variables";
+
+.item {
+  text-decoration: none;
+  border-top-color: $pink;
+  border-top-style: solid;
+  border-top-width: 0;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.activeItem {
+  color: $pink;
+  border-top-width: 0.5rem;
+}
+
+.menu {
+  border-radius: 2rem 2rem 0 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: $darkPurple;
+  box-sizing: border-box;
+}
