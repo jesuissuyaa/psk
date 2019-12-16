@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+import SEO from "../components/SEO"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons"
@@ -8,6 +9,7 @@ import { faCalendarAlt } from "@fortawesome/free-solid-svg-icons"
 export default () => {
   return (
     <Layout>
+      <SEO title="練習日程" />
       ふだんは週に1回集まって練習しています！月曜日と火曜日があるので、都合の良い方に参加できます
       <div style={{ marginTop: `3rem` }}>
         <div

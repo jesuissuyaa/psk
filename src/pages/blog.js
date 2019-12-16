@@ -1,11 +1,14 @@
 import React from "react"
 import BlogLayout from "../components/blogLayout"
+import SEO from "../components/SEO"
 import { Link, graphql } from "gatsby"
+
 import Logo from "../assets/logo.jpg"
 
 export default ({ data }) => {
   return (
     <BlogLayout>
+      <SEO title="ブログ" />
       <div
         style={{
           padding: `1rem`,

@@ -14,7 +14,7 @@ import SEO from "../components/SEO"
 export default () => {
   return (
     <Layout>
-      <SEO />
+      <SEO title="トップページ"/>
       <h2 style={{ textAlign: "center", margin: `0 auto`, fontSize: "1.3rem" }}>
         パサール・スニ・くにたち
       </h2>

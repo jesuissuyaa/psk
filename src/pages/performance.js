@@ -1,9 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
+import SEO from "../components/SEO"
 import NextPerformance from "../components/nextPerformance"
 export default () => {
   return (
     <Layout>
+      <SEO title="発表" />
       年に3-4回ほど、国立市内のイベントを中心に演奏の発表をしています！
       <NextPerformance />
       {/* TODO: pull from data */}

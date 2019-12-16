@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+import SEO from "../components/SEO"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTwitter } from "@fortawesome/free-brands-svg-icons"
@@ -10,6 +11,7 @@ export default () => {
     // TODO: できたら practiceと共通化しちゃう
     // TODO: add OGP for twitter
     <Layout>
+      <SEO title="連絡先" />
       メンバーは随時募集しています！まずは見学だけでも大丈夫ですので、お気軽にご連絡ください
       <div style={{ marginTop: `3rem` }}>
         <a
