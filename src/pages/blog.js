@@ -21,7 +21,7 @@ export default ({ data }) => {
         <img
           src={Logo}
           style={{
-            height: `30vw`,
+            height: `30vw`, // TODO
             borderRadius: `30vw`,
             border: `.2rem solid white`,
             marginRight: `1rem`,
@@ -33,29 +33,31 @@ export default ({ data }) => {
         </div>
       </div>
       <div style={{ marginRight: `2rem`, marginLeft: `2rem` }}>
-        {data.allMarkdownRemark.edges.map(({ node }) => (
-          <Link
-            to={node.fields.slug}
-            style={{ textDecoration: `none`, color: `inherit` }}
-          >
-            <div
+        {data.allMarkdownRemark.edges.map(({ node }) => {
+          return (
+            <Link
+              to={node.fields.slug}
+              style={{ textDecoration: `none`, color: `inherit` }}
               key={node.id}
-              style={{
-                backgroundColor: `white`,
-                borderRadius: `.5rem`,
-                marginTop: `2rem`,
-                display: `flex`,
-                alignContent: `center`,
-                flexDirection: `column`,
-                padding: `0 1rem`,
-              }}
             >
-              <h3 style={{ margin: `.5rem 0` }}>{node.frontmatter.title}</h3>
-              {node.frontmatter.date}
-              <p>{node.excerpt.slice(0, 45)} ...</p>
-            </div>
-          </Link>
-        ))}
+              <div
+                style={{
+                  backgroundColor: `white`,
+                  borderRadius: `.5rem`,
+                  marginTop: `2rem`,
+                  display: `flex`,
+                  alignContent: `center`,
+                  flexDirection: `column`,
+                  padding: `0 1rem`,
+                }}
+              >
+                <h3 style={{ margin: `.5rem 0` }}>{node.frontmatter.title}</h3>
+                {node.frontmatter.date}
+                <p>{node.excerpt.slice(0, 45)} ...</p>
+              </div>
+            </Link>
+          )
+        })}
       </div>
     </BlogLayout>
   )

@@ -1,5 +1,15 @@
 ## deploy
 
+push to github master branch
+--> check netlify
+https://app.netlify.com/sites/jovial-davinci-f6241b/deploys
+
+## local test
+
+```
+gatsby develop
+```
+
 ## TODO
 
 - add pagination for blog: https://www.gatsbyjs.org/docs/adding-pagination/
