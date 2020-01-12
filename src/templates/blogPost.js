@@ -2,6 +2,7 @@ import React from "react"
 import BlogLayout from "../components/blogLayout"
 import { graphql, Link } from "gatsby"
 import Logo from "../assets/logo.jpg"
+import SEO from "../components/SEO"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
@@ -64,6 +65,7 @@ export default ({ data }) => {
   const post = data.markdownRemark
   return (
     <BlogLayout>
+      <SEO title={post.frontmatter.title} />
       <BlogPostHeader />
       <div
         style={{
